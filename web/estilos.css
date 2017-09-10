@@ -1,0 +1,40 @@
+.principal{
+    
+    width: 99%;
+    height: 98%;
+    background: lightskyblue;
+    border: solid 4px;
+    border-color: darkblue;
+    border-radius: 10px;
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Georgia', cursive;
+    
+    
+}
+.input{
+    
+    width: 20%;
+    background: highlight;
+    border: solid 2px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    align-self: center;
+    
+}
+.submit{
+    background: lightseagreen;
+    border: solid 2px;
+    align-self: center;
+   
+}
+p{
+    width: 100%;
+    background: aqua;
+    opacity: 5%;
+}
+.center{
+    font-size: 25px;
+    font-family: 'Verdana';
+}

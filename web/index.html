@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+AUTORES: Aguilar Báez Javier Alejandro y Martínez Barbosa Genaro Enrique (C) Agosto 2017
+VERSIÓN: 1.0 
+
+DESCRIPCIÓN: Un Login conectado a una Base de Datos, elaborado con Servlets.
+
+OBSERVACIONES: 
+Después de registrarse en el programa, volver e ingresar los datos en la sección "Ingresar", y hacer clic en "Entrar". 
+
+COMPILACIÓN: se compila en tiempo de ejecucion. 
+EJECUCIÓN: se ejecuta haciendo clic derecho y seleccionando Run File.
+-->
+
+
+<html style="width: 100%; height: 100%; margin:0px;">
+    <head>
+        <title>Login con Servlets</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css"/>
+    </head>
+    <body style="width: 100%; height: 100%; margin:0px;">
+        <div class="principal">
+            <div style="float:left; display:table; width: 50%; height: 100%; margin:0px;">
+                <form action="Login" method="get" name="registrarse">
+                    <br> <center style="center"> <b> Registrarse </b> </center> <br>
+                    <p> Usuario: </p>
+                    <input class="input" type="text"  name="usuario" id="usuario">
+                    <br> <br>
+                    <p> Contraseña: </p>
+                    <input class="input" type="text"  name="contraseña" id="contraseña">
+                    <br> <br>               
+                    <input type="submit" name="subir" value="Subir datos" class="submit">  
+                </form>        
+            </div>
+            <div style="float:left; display:table; width: 50%; height: 100%; margin:0px;">
+                <form action="Login" method="get" name="ingresar">
+                    <br> <center style="center"> <b> Ingresar </b> </center> <br>
+                    <p> Usuario: </p>
+                    <input class="input" type="text"  name="user" id="user">
+                    <br> <br>
+                    <p> Contraseña: </p>
+                    <input class="input" type="text"  name="password" id="password">
+                    <br> <br>               
+                    <input type="submit" name="enter" value="Entrar" class="submit">  
+                </form>        
+            </div>
+        </div>
+    </body>
+</html>
